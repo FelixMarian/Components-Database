@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>356</width>
+    <height>381</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="backgroundLabel">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>401</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#backgroundLabel{
+background-image: url(:/bg-img/background.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="addLabel">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>10</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#addLabel{
+color: rgba(255,255,255,200);
+font-size: 25px;
+font-family: &quot;Arial&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>Add</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="tip_Label">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>60</y>
+     <width>41</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#tip_Label{
+color: rgba(255,255,255,225);
+font-size: 18px;
+font-family: &quot;Arial&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>Type</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="model_Label">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>100</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#model_Label{
+color: rgba(255,255,255,225);
+font-size: 18px;
+font-family: &quot;Arial&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>Model</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="datasheet_Label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>220</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#datasheet_Label{
+color: rgba(255,255,255,225);
+font-size: 18px;
+font-family: &quot;Arial&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>Datasheet</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="qt_Label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>180</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#qt_Label{
+color: rgba(255,255,255,225);
+font-size: 18px;
+font-family: &quot;Arial&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>Quantity</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addConfirm_Button">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>320</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#addConfirm_Button{
+background-color: rgba(0,0,0,0);
+color: white;
+font-size: 16px;
+font-family: &quot;Arial&quot;;
+border: 2px solid white;
+border-radius: 13px;
+}
+QPushButton#addConfirm_Button:hover{
+background-color: rgba(0,0,0,125);
+}</string>
+   </property>
+   <property name="text">
+    <string>Add</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="type_Add_textEdit">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>50</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextEdit#type_Add_textEdit{
+background-color: rgba(0,0,0,0);
+color: white;
+border: none;
+border-bottom: 2px solid white;
+}</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="model_Add_textEdit">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>90</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextEdit#model_Add_textEdit{
+background-color: rgba(0,0,0,0);
+color: white;
+border: none;
+border-bottom: 2px solid white;
+}</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="datasheet_Add_textEdit">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>220</y>
+     <width>211</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextEdit#datasheet_Add_textEdit{
+background-color: rgba(0,0,0,0);
+color: white;
+border: 1px solid rgba(255,255,255,15);
+border-bottom: 2px solid white;
+}</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="qt_spinBox">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>180</y>
+     <width>40</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QSpinBox#qt_spinBox{
+background-color: rgba(0,0,0,0);
+color: white;
+border: none;
+font-size: 12px;
+}</string>
+   </property>
+   <property name="maximum">
+    <number>999</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="addLabel_2">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>310</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#addLabel{
+color: rgba(255,255,255,200);
+font-size: 25px;
+font-family: &quot;Arial&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>Add</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="code_Label">
+   <property name="geometry">
+    <rect>
+     <x>56</x>
+     <y>140</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#code_Label{
+color: rgba(255,255,255,225);
+font-size: 18px;
+font-family: &quot;Arial&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>Code</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="code_Add_textEdit">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>130</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextEdit#code_Add_textEdit{
+background-color: rgba(0,0,0,0);
+color: white;
+border: none;
+border-bottom: 2px solid white;
+}</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="background.qrc"/>
+ </resources>
+ <connections/>
+</ui>

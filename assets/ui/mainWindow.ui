@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>255</width>
+    <height>371</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="backgroundLabel">
+    <property name="geometry">
+     <rect>
+      <x>-4</x>
+      <y>-8</y>
+      <width>261</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel#backgroundLabel{
+background-image: url(:/bg-img/background.png);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="search_Button">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>20</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#search_Button{
+background-color: rgba(0,0,0,0);
+color: white;
+font-size: 16px;
+font-family: &quot;Arial&quot;;
+border-radius: 13px;
+border: 2px solid white;
+}
+QPushButton#search_Button:hover{
+background-color: rgba(0,0,0,125);
+}</string>
+    </property>
+    <property name="text">
+     <string>Search</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="seeAll_Button">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>80</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#seeAll_Button{
+background-color: rgba(0,0,0,0);
+color: white;
+font-size: 16px;
+font-family: &quot;Arial&quot;;
+border-radius: 13px;
+border: 2px solid white;
+}
+QPushButton#seeAll_Button:hover{
+background-color: rgba(0,0,0,125);
+}</string>
+    </property>
+    <property name="text">
+     <string>See all</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="add_Button">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>140</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#add_Button{
+background-color: rgba(0,0,0,0);
+color: white;
+font-size: 16px;
+font-family: &quot;Arial&quot;;
+border-radius: 13px;
+border: 2px solid white;
+}
+QPushButton#add_Button:hover{
+background-color: rgba(0,0,0,125);
+}</string>
+    </property>
+    <property name="text">
+     <string>Add</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="update_Button">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>200</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#update_Button{
+background-color: rgba(0,0,0,0);
+color: white;
+font-size: 16px;
+font-family: &quot;Arial&quot;;
+border-radius: 13px;
+border: 2px solid white;
+}
+QPushButton#update_Button:hover{
+background-color: rgba(0,0,0,125);
+}</string>
+    </property>
+    <property name="text">
+     <string>Update</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="remove_Button">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>260</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#remove_Button{
+background-color: rgba(0,0,0,0);
+color: white;
+font-size: 16px;
+font-family: &quot;Arial&quot;;
+border-radius: 13px;
+border: 2px solid white;
+}
+QPushButton#remove_Button:hover{
+background-color: rgba(0,0,0,125);
+}</string>
+    </property>
+    <property name="text">
+     <string>Remove</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>255</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="background.qrc"/>
+ </resources>
+ <connections/>
+</ui>
