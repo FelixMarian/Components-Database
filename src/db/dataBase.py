@@ -2,7 +2,7 @@ import sqlite3
 
 from PyQt5.QtSql import QSqlDatabase, QSqlQueryModel
 
-dbPath = r"db\products.db"
+dbPath = r"C:\Users\stoen\Desktop\ComponentsDatabase\src\db\products.db"
 
 conn = sqlite3.connect(dbPath)
 cursor = conn.cursor()
